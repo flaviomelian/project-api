@@ -1,0 +1,50 @@
+.home{
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+    position: relative;
+    z-index: -1;
+    height: 160vh;
+}
+
+li{
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+.pikachu{
+    position: relative;
+    left: 3%;
+}
+
+.paragraph-intro{
+    padding: 1%;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .home{height: 215vh; padding: 3%;}
+    .h-home{    position: relative;
+        left: 40%;
+        top: 2vh;}
+}
+
+@media screen and (max-width: 426px){
+    #root{
+        left: 0px;
+        width: 100%;
+    }
+
+    .home{
+        padding: 1.5%;
+        height: 260vh;
+    }
+
+
+    .sun-button{width: 100%;}
+    .sun-div{width: 120%;}
+    .header.div{justify-content: space-around;}
+    .header.div{ width: 20%;}
+    .logout{width: 300%;}
+    .api{width: 17%;}
+    .house{width: 70%;}
+}

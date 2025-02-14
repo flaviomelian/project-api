@@ -1,0 +1,35 @@
+.footer{
+    position: relative;
+    font-size: 10vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to top, #6eb32d 95%, #16639700);
+}
+
+.in-footer{
+    position: relative;
+    top: 2vh;
+    font-size: 5vh;
+    width: 20%;
+}
+
+.img-footer{
+    position: relative;
+    width: 8%;
+    margin: 2%;
+    border-radius: 25%;
+    left: 55%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .footer{height: 15vh;}
+    .in-footer{width: 25%;}
+    .img-footer{height: 10vh; left: 47%;}
+}
+
+@media screen and (max-width: 426px){
+    .in-footer{width: 40%;}
+    .img-footer{height: 7vh; width: 10%; left: 20%; top: 5vh;}
+    .in-footer{font-size: 25px; top: 3vh;}
+}

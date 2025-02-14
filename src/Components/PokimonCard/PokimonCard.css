@@ -1,0 +1,38 @@
+.look-for{
+    width: 5%;
+}
+
+.card{
+    background-image: radial-gradient(#68be68, #00673b);
+    border-radius: 5% / 50%;
+    margin: 5%;
+    text-transform: uppercase;
+}
+
+.button-pokimon-card{
+    width: 25%;
+    position: relative;
+    border-radius: 10% / 50%;
+    background-image: linear-gradient(to bottom, #146634, #00ff62);
+}
+
+.button-pokimon-card:hover {
+    border-color: #646cff;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .card{height: 10vh;}
+    h3{width: 20%; font-size: 15px;}
+    .button-pokimon-card{ width: 33%; bottom: 15vh;}
+    h4{position: relative; left: 73%; bottom: 7vh; width: 20%;}
+}
+
+@media screen and (max-width: 426px){
+    .in-footer{width: 40%;}
+    .img-footer{height: 10vh; width: 15%; left: 20%; top: 3vh;}
+    .card{height: 25vh; border-radius: 20% / 50%;}
+    .button-pokimon-card{width: 60%;}
+    .look-for{width: 10%;}
+    .container input{width: 50%;}
+}

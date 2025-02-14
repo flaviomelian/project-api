@@ -1,0 +1,22 @@
+.profile{
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+    height: 65vh;
+    padding-top: 3%;
+}
+
+.profile h1{
+    position: relative;
+    top: 13vh;
+    margin-bottom: 13%;
+}
+
+
+@media screen and (max-width: 426px){
+
+    h1{padding: 3%;}
+
+    .profile h2{
+        position: relative;
+        top: 10vh;
+    }
+}

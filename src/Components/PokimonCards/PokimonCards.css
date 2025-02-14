@@ -1,0 +1,35 @@
+.pokimon-cards{
+    position: relative;
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+    padding-top: 5%;
+}
+
+.look-for, .look-for-algolia{
+    margin-right: 5%;
+}
+
+input{ 
+    position: relative;
+    top: 2.5vh;
+    height: 3vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-pokimon-form{
+    background-color: #0a2c50;
+    width: 20%;
+}
+
+.chat{
+    width: 100%;
+}
+
+.chat-button{
+    margin-left: 3%;
+    width: 7%;
+}

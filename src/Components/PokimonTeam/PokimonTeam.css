@@ -1,0 +1,58 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5%;
+    margin-top: 3%;
+}
+
+.pokimon{
+    position: relative;
+    left: 20%;
+    margin-bottom: 3%;
+}
+
+.name{margin-top: 2%;}
+
+.icon-li{
+    width: 7%;
+}
+
+.team li {
+    width: 50%;
+    display: flex;
+    list-style-image: url('./../../assets/pokeball.png');
+    justify-content: space-between;
+}
+
+.remove{
+    border-radius: 20% / 50%;
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+}
+
+.reset{
+    width: 15%;
+    border-radius: 10% / 50%;
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+}
+
+.go-to-balance{
+    color: #041d42;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .your-pokemon-team{position: relative; left: 38%; width: 25%;}  
+    .reset{width: 30%;} 
+    .icon-li {width: 10%;}
+    .pokimon{left: 23%;}
+    .team{left: 0px;}
+    .full-team{position: relative; left: 20%;}
+}
+
+@media screen and (max-width: 426px){
+    .your-pokemon-team{position: relative; left: 20%; width: 60%;}  
+    .reset{width: 40%;} 
+    .icon-li {width: 11%;}
+    .team{padding: 0px; width: 90%;}
+    .team li{left: 2%; width: 95%}
+}

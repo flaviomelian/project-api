@@ -1,0 +1,42 @@
+.reports-page{
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+    padding: 2%;
+}
+
+.selects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.select-reports{
+    width: 20%;
+    background-color: #1c3c5d;
+}
+
+.impress{
+    border-radius: 10% / 50%;
+    background-image: linear-gradient(to bottom, #2d6eb3, #000000);
+}
+
+.report-form{
+    width: 100%;
+}
+
+.data-analisys{
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.campeones{
+    width: 50%;
+}
+
+#pieChart{
+    position: relative;
+    right: 5%;
+}
