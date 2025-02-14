@@ -5,7 +5,7 @@ import pikachu from './../../assets/pikachu.png'
 const Home = () => {
   return (
     <div className="home">
-      <h1>¡Bienvenido al Mundo Pókimon!</h1>
+      <h1>¡Bienvenido al Mundo Pókimon, MAMAHUEVO!</h1>
       <h2>Descubre, explora y aprende sobre todos los Pókimon.</h2>
       <img className="pikachu" src={pikachu}/>
       <section id="intro">
