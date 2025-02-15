@@ -8,9 +8,14 @@ const Footer = () => {
     <>
         <div className="footer">
           <h2 className="in-footer">_fmsijk_ &copy;</h2>
-          <img className='img-footer' src={linkedin}></img>
-          <img className='img-footer' src={github}></img>
-
+          
+          <a className='ankle-footer' href='https://www.linkedin.com/in/flavio-melian-973308273/'>
+            <img className='img-footer' src={linkedin}/>
+          </a>
+          <a  className='ankle-footer' href='https://github.com/flaviomelian'>
+            <img className='img-footer' src={github}/>
+          </a>
+          
         </div>
     </>
   )

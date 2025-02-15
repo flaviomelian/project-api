@@ -27,12 +27,12 @@
     width: 185%;
     border-radius: 20%;
     position: relative;
-    right: 433%;
+    right: 300%;
 }
 
 .api{
     position: relative;
-    width: 10%;
+    width: 20%;
     right: 10%;
     border-radius: 20%;
 }
@@ -40,7 +40,7 @@
 .reports{
     position: relative;
     width: 40%;
-    right: 150%;
+    right: 70%;
     border-radius: 20%;
 }
 

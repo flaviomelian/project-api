@@ -41,10 +41,11 @@ li{
 
 
     .sun-button{width: 100%;}
-    .sun-div{width: 120%;}
+    .sun-div{position: relative; width: 60%; left: 3%;}
     .header.div{justify-content: space-around;}
     .header.div{ width: 20%;}
-    .logout{width: 300%;}
-    .api{width: 17%;}
-    .house{width: 70%;}
+    .reports{right: 15%;}
+    .logout{width: 150%; right: 100%;}
+    .api{width: 62%;}
+    .house{position: relative; width: 40%; left: -7%;}
 }

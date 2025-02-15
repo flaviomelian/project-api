@@ -33,7 +33,12 @@
 }
 
 .campeones{
-    width: 50%;
+    width: 80%;
+}
+
+#bar-chart{
+    position: relative;
+    right: 95%;
 }
 
 

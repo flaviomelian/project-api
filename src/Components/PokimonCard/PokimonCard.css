@@ -29,8 +29,6 @@
 }
 
 @media screen and (max-width: 426px){
-    .in-footer{width: 40%;}
-    .img-footer{height: 10vh; width: 15%; left: 20%; top: 3vh;}
     .card{height: 25vh; border-radius: 20% / 50%;}
     .button-pokimon-card{width: 60%;}
     .look-for{width: 10%;}

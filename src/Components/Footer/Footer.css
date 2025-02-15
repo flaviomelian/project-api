@@ -14,12 +14,29 @@
     width: 20%;
 }
 
+.ankle-footer{
+    left: 55%;
+    margin-right: 5%;
+}
+
 .img-footer{
     position: relative;
-    width: 8%;
+    width: 80%;
     margin: 2%;
     border-radius: 25%;
-    left: 55%;
+}
+
+.img-footer:hover{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.ankle-footer{
+    position: relative;
+    left: 50%;
+    top: 10%;
+    width: 10%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -29,7 +46,8 @@
 }
 
 @media screen and (max-width: 426px){
-    .in-footer{width: 40%;}
-    .img-footer{height: 7vh; width: 10%; left: 20%; top: 5vh;}
+    .in-footer{width: 50%;}
+    .ankle-footer{ left: 10%; width: 15%;}
+    .img-footer{width: 100%;}
     .in-footer{font-size: 25px; top: 3vh;}
 }

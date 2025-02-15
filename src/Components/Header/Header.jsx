@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import api from '../../assets/api.jpg'
+import api from '../../assets/pokeball.jpg'
 import house from '../../assets/casita.png'
 import logout from '../../assets/logout.png'
 import sun from '../../assets/sun.jpg'
@@ -29,7 +29,7 @@ const Header = () => {
             <img className='house' src={house}/>
           </Link>
         </div>
-        <div>
+        <div style={{width: "60%"}}>
           <Link to='/api'>
             <img className='api' src={api}/>
           </Link>
