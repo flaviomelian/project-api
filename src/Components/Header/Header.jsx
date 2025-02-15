@@ -19,6 +19,7 @@ const Header = () => {
       // Si light es false, es tema oscuro
       document.getElementsByTagName('body')[0].style.backgroundColor = '#333'; // Fondo oscuro
       document.getElementsByTagName('body')[0].style.color = '#fff'; // Color de texto claro
+      ///document.getElementsByClassName('')[0].style.color = '000'
     }
   }, [light]);
   return (

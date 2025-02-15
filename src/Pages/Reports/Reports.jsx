@@ -165,8 +165,8 @@ const Reports = () => {
             <p>Cargando datos...</p>
         )}
         </div>
-        <div id="pieChart"></div>
         <div id="barChart"></div>
+        <div id="pieChart"></div>
         </div>
         
       </form>

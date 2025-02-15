@@ -36,7 +36,20 @@
     width: 50%;
 }
 
-#pieChart{
-    position: relative;
-    right: 5%;
+
+@media screen and (max-width: 426px) {
+    .data-analisys{
+        flex-direction: column-reverse;
+    }
+
+    .data-analisys ul{
+        width: 85vw;
+    }
+
+    #bar-chart{
+        position: relative;
+        left: 5%;
+        width: 100%;
+    }
+    
 }
